@@ -5,22 +5,23 @@ export const CONTENT: Content = {
     nav: {
       home: "Home",
       about: "About",
+      chronology: "Chronology",
       services: "Services",
       contact: "Contact",
-      toggleLang: "FR",
-      bookBtn: "Book Consultation"
+      toggleLang: "FR / EN",
+      bookBtn: "Book a Call",
     },
     hero: {
-      title: "The Digital Information Knowlege Manager",
-      subtitle: "Structuring Heritage, Standardizing Knowledge.",
+      title: "Digital Information & Knowledge Manager",
+      subtitle: "Structuring heritage, standardizing knowledge.",
       cta: "Schedule Consultation",
       tagline: "Your Partner in Digital Library Architecture"
     },
     about: {
       title: "Expertise & Passion",
       p1: "In an ever-evolving documentary landscape, where information is both valuable and abundant, my mission is to ensure your digital heritage is structured, standardized, and made accessible in a sustainable manner.",
-      p2: "My expertise lies at the intersection of traditional information science and cutting-edge digital content management. I serve Institutional, Professional, and Private entities with rigorous confidentiality.",
-      p3: "From repository architecture to precise metadata creation, I facilitate the accessibility of your documents in the most beautiful way possible.",
+      p2: "With over 17 years of experience, my expertise lies at the intersection of traditional information science and cutting-edge digital content management. I serve institutional, professional, and private entities with rigorous confidentiality.",
+      p3: "From repository architecture to precise metadata creation, I facilitate the accessibility of your documents in the most elegant and efficient way possible.",
       expertiseTitle: "Core Competencies",
       expertiseList: [
         "Bilingual Cataloging (EN/FR)",
@@ -99,30 +100,31 @@ export const CONTENT: Content = {
   fr: {
     nav: {
       home: "Accueil",
-      about: "À Propos",
+      about: "Profil",
+      chronology: "Parcours",
       services: "Services",
       contact: "Contact",
-      toggleLang: "EN",
-      bookBtn: "Réserver"
+      toggleLang: "FR / EN",
+      bookBtn: "Prendre rendez-vous",
     },
     hero: {
       title: "La Bibliothécaire Numérique",
-      subtitle: "Structurer le Patrimoine, Normaliser le Savoir.",
-      cta: "Prendre Rendez-vous",
-      tagline: "Votre Partenaire en Architecture de Bibliothèque Numérique"
+      subtitle: "Structurer le patrimoine, normaliser le savoir.",
+      cta: "Prendre rendez-vous",
+      tagline: "Votre partenaire en architecture de bibliothèque numérique"
     },
     about: {
       title: "Expertise & Passion",
-      p1: "Dans un paysage documentaire en constante évolution, où l'information est à la fois précieuse et pléthorique, ma mission est de garantir que votre patrimoine digital soit structuré, normalisé et accessible de manière pérenne.",
-      p2: "Mon expertise se situe au carrefour de la science de l'information traditionnelle et de la gestion de contenu numérique de pointe. Je sers des entités Institutionnelles, Professionnelles et Privées avec une confidentialité rigoureuse.",
-      p3: "De l'architecture du dépôt à la création précise de métadonnées, je facilite l'accessibilité de vos documents dans la plus belle des façons possibles.",
+      p1: "Dans un paysage documentaire en constante évolution, où l'information est à la fois précieuse et abondante, ma mission est de garantir que votre patrimoine numérique soit structuré, normalisé et accessible de manière pérenne.",
+      p2: "Forte de plus de 17 ans d’expérience, mon expertise se situe au carrefour de la science de l'information traditionnelle et de la gestion de contenu numérique de pointe. J’accompagne des entités institutionnelles, professionnelles et privées avec une confidentialité rigoureuse.",
+      p3: "De l'architecture du dépôt à la création précise de métadonnées, je facilite l'accessibilité de vos documents de la manière la plus efficace et professionnelle possible.",
       expertiseTitle: "Compétences Clés",
       expertiseList: [
-        "Catalogage Bilingue (ANG/FR)",
+        "Catalogage bilingue (EN/FR)",
         "Formats MARC et UNIMARC",
         "Normes Library of Congress (LoC)",
-        "Gestion des Actifs Numériques (DAM)",
-        "Architecture de Dépôt"
+        "Gestion des actifs numériques (DAM)",
+        "Architecture de dépôt"
       ]
     },
     services: {
@@ -132,63 +134,63 @@ export const CONTENT: Content = {
         digital: {
           title: "Gestion de Collections Numériques",
           items: [
-            "Téléversement & Gestion de Dépôt",
-            "Architecture de Bibliothèque Numérique",
-            "Organisation & Création de Collections",
-            "Saisie de Données Manuelle",
-            "Conventions de Nammage Standardisées"
+            "Téléversement & gestion de dépôt",
+            "Architecture de bibliothèque numérique",
+            "Organisation & création de collections",
+            "Saisie de données manuelle précise",
+            "Conventions de nommage standardisées"
           ]
         },
         knowledge: {
           title: "Services de Connaissance",
           items: [
-            "Bibliographies Spécialisées",
-            "Recherche Documentaire & Archivistique",
-            "Classification Systématique",
-            "Indexation & Gestion de Thésaurus",
-            "Optimisation de la Recherche"
+            "Bibliographies spécialisées",
+            "Recherche documentaire & archivistique",
+            "Classification systématique",
+            "Indexation & gestion de thésaurus",
+            "Optimisation de la recherche d’information"
           ]
         },
         publishing: {
           title: "Services d'Édition",
           items: [
-            "Catalogage avant Publication (CIP)",
-            "Révision de Documents & Contrôle Qualité",
-            "Liaison avec les Bibliothèques de Dépôt",
+            "Catalogage avant publication (CIP)",
+            "Révision de documents & contrôle qualité",
+            "Liaison avec les bibliothèques de dépôt",
             "Gestion ISBN/ISSN",
-            "Métadonnées pour la Distribution"
+            "Métadonnées pour la distribution"
           ]
         }
       },
       bookService: "Réserver ce service"
     },
     booking: {
-      modalTitle: "Prendre Rendez-vous",
-      step1: "Date et Heure",
-      step2: "Vos Coordonnées",
+      modalTitle: "Prendre rendez-vous",
+      step1: "Date et heure",
+      step2: "Vos coordonnées",
       selectDate: "Sélectionner une date",
       selectTime: "Sélectionner une heure",
       yourDetails: "Entrez vos détails",
       nameLabel: "Nom complet",
       emailLabel: "Adresse email",
-      notesLabel: "Sujet de discussion (Optionnel)",
+      notesLabel: "Sujet de discussion (optionnel)",
       confirmBtn: "Confirmer le rendez-vous",
       backBtn: "Retour",
-      successTitle: "Rendez-vous Confirmé",
+      successTitle: "Rendez-vous confirmé",
       successMsg: "Merci. J'ai bien reçu votre demande et vous enverrai une invitation calendrier par email sous peu.",
       closeBtn: "Fermer"
     },
     contact: {
       title: "Structurons Votre Savoir",
       desc: "Prêt à professionnaliser vos actifs numériques ? Planifiez un appel découverte gratuit de 15 minutes directement via mon agenda.",
-      button: "Ouvrir l'Agenda",
+      button: "Ouvrir l’agenda",
       or: "ou",
-      emailDetails: "Préférez-vous l'email ? Envoyez une demande détaillée."
+      emailDetails: "Vous préférez l’email ? Envoyez une demande détaillée."
     },
     footer: {
       rights: "Tous droits réservés.",
-      privacy: "Politique de Confidentialité",
-      terms: "Conditions d'Utilisation"
+      privacy: "Politique de confidentialité",
+      terms: "Conditions d'utilisation"
     }
   }
 };

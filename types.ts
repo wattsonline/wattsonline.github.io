@@ -11,10 +11,11 @@ export interface ContentSection {
   description?: string;
 }
 
-export interface Translation {
+export type Translation = {
   nav: {
     home: string;
     about: string;
+    chronology: string;  // <-- add this
     services: string;
     contact: string;
     toggleLang: string;

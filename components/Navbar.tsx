@@ -24,6 +24,8 @@ const Navbar: React.FC<NavbarProps> = ({ toggleLang, openBooking, t }) => {
   const navLinks = [
     { name: t.home, href: '#' },
     { name: t.about, href: '#about' },
+    // NEW: chronology link
+    { name: t.chronology, href: '#chronology' },
     { name: t.services, href: '#services' },
     { name: t.contact, href: '#contact' },
   ];
@@ -37,12 +39,25 @@ const Navbar: React.FC<NavbarProps> = ({ toggleLang, openBooking, t }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <div className="flex items-center space-x-3 group cursor-pointer" onClick={() => window.scrollTo(0,0)}>
-            <div className={`p-2 rounded-lg transition-colors ${isScrolled ? 'bg-library-primary text-white' : 'bg-white text-library-primary shadow-lg'}`}>
+          <div
+            className="flex items-center space-x-3 group cursor-pointer"
+            onClick={() => window.scrollTo(0, 0)}
+          >
+            <div
+              className={`p-2 rounded-lg transition-colors ${
+                isScrolled
+                  ? 'bg-library-primary text-white'
+                  : 'bg-white text-library-primary shadow-lg'
+              }`}
+            >
               <BookOpen size={24} />
             </div>
-            <span className={`font-serif text-xl font-bold tracking-tight ${isScrolled ? 'text-library-primary' : 'text-library-primary'}`}>
-            The Digital<span className="text-library-secondary">Information Knowlege Manager</span>
+            <span
+              className={`font-serif text-xl font-bold tracking-tight ${
+                isScrolled ? 'text-library-primary' : 'text-library-primary'
+              }`}
+            >
+              Information Knowledge Manager
             </span>
           </div>
 
@@ -69,7 +84,10 @@ const Navbar: React.FC<NavbarProps> = ({ toggleLang, openBooking, t }) => {
               onClick={openBooking}
               className="bg-library-secondary text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-amber-700 transition-colors shadow-md flex items-center group"
             >
-              <CalendarCheck size={16} className="mr-2 group-hover:scale-110 transition-transform" />
+              <CalendarCheck
+                size={16}
+                className="mr-2 group-hover:scale-110 transition-transform"
+              />
               {t.bookBtn}
             </button>
           </div>
