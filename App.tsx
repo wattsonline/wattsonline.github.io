@@ -164,7 +164,7 @@ function App() {
                       <div className="h-px w-12 bg-slate-600"></div>
                     </div>
 
-                    <a href="mailto:contact@digitallibrarian.com" className="flex items-center text-slate-300 hover:text-white transition-colors">
+                    <a href="mailto:wattsonlinenow@gmail.com" className="flex items-center text-slate-300 hover:text-white transition-colors">
                        <Mail size={18} className="mr-3" />
                        <span>{t.contact.emailDetails}</span>
                     </a>

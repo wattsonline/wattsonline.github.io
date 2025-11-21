@@ -42,7 +42,7 @@ const Navbar: React.FC<NavbarProps> = ({ toggleLang, openBooking, t }) => {
               <BookOpen size={24} />
             </div>
             <span className={`font-serif text-xl font-bold tracking-tight ${isScrolled ? 'text-library-primary' : 'text-library-primary'}`}>
-              Digital<span className="text-library-secondary">Librarian</span>
+            The Digital<span className="text-library-secondary">Information Knowlege Manager</span>
             </span>
           </div>
 

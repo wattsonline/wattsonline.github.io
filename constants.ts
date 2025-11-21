@@ -11,7 +11,7 @@ export const CONTENT: Content = {
       bookBtn: "Book Consultation"
     },
     hero: {
-      title: "The Digital Librarian",
+      title: "The Digital Information Knowlege Manager",
       subtitle: "Structuring Heritage, Standardizing Knowledge.",
       cta: "Schedule Consultation",
       tagline: "Your Partner in Digital Library Architecture"
