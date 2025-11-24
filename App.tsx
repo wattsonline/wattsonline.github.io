@@ -46,147 +46,146 @@ type ChronologyContent = {
 
 const CHRONOLOGY_CONTENT: Record<Language, ChronologyContent> = {
   en: {
-    heading: 'Career Chronology',
+    heading: 'Team Experience Timeline',
     subheading:
-      'A 17+ year journey at the intersection of digital libraries, institutional memory and strategic communication across the Pacific.',
-    highlightTitle: 'Why organisations work with Stéphanie',
+      'Over two decades of combined experience at the intersection of digital libraries, institutional memory and strategic communication for public, academic and international organisations.',
+    highlightTitle: "Why organisations work with the Watt's Online team",
     highlightBullets: [
-      '17+ years stewarding institutional knowledge in complex, multicultural Pacific organisations.',
-      'Deep expertise in Koha, Navision, metadata and digital archiving — from legacy collections to born-digital assets.',
-      'Bilingual French–English, fluent Spanish, with strong Pacific regional and cultural insight.',
-      'Proven leadership in digital transformation, meeting support and publication workflows for boards and senior governance.',
+      '20+ years of combined experience stewarding institutional knowledge in complex, multicultural environments.',
+      'Deep expertise in library systems, corporate finance tools, metadata and digital archiving — from legacy collections to born-digital assets.',
+      'Multilingual service (FR / EN / ES) with strong understanding of international and regional contexts.',
+      'Proven track record in digital transformation, governance support and publication workflows for boards and senior leadership.',
     ],
     timelineTitle: 'Professional milestones',
     items: [
       {
-        period: '2008 – 2025',
-        title: 'Senior Information Management Officer, Library & Publications',
-        org: 'Pacific Community (SPC)',
-        location: 'Nouméa, New Caledonia & Suva, Fiji',
+        period: '2008 – Present',
+        title: 'Digital Library & Information Management Leadership',
+        org: 'International & regional organisations',
+        location: 'Multi-country / remote',
         summary:
-          'Led the digital transformation of SPC’s institutional knowledge base and library services across 27 Pacific member states.',
+          'Leading digital transformation of institutional knowledge bases, publication workflows and library services for public and international bodies.',
         highlights: [
-          'Directed digitisation of institutional documents and archives, ensuring long-term preservation and access.',
-          'Managed the SPC Digital Library and divisional repositories with robust metadata and quality control.',
-          'Administered and optimised Koha, training SPC and partner libraries across the Pacific.',
-          'Supported official publication workflows (CIP data, ISBNs, barcodes) and high-level governance meetings.',
-          'Managed divisional finances with Navision, from purchase orders to invoice and payment tracking.',
+          'Design and implementation of document digitisation and long-term digital preservation strategies.',
+          'Management of digital libraries and repositories with robust metadata standards and quality control.',
+          'Administration and optimisation of integrated library systems (e.g. Koha) and related knowledge tools.',
+          'Support for official publication workflows, board documentation and executive decision-making.',
+          'Use of finance and planning systems to track budgets, purchase orders and payments for information services.',
         ],
       },
       {
         period: '2007 – 2008',
-        title: 'Librarian & Audiovisual Manager',
-        org: 'Dumbea Media Library',
-        location: 'Nouméa, New Caledonia',
+        title: 'Public Media Library & Audiovisual Services',
+        org: 'Municipal media library',
+        location: 'Public cultural institution',
         summary:
-          'Built and led the audiovisual sector of a public media library, combining collection strategy with cultural outreach.',
+          'Development and management of a public media library’s audiovisual offer, combining collection strategy, public service and cultural outreach.',
         highlights: [
-          'Established the audiovisual department (space design, furniture, acquisition planning).',
-          'Managed acquisitions and systematic weeding of books, music and film collections.',
-          'Catalogued 10,000+ assets using UNIMARC, improving access for diverse audiences.',
-          'Designed bilingual (FR/EN) cultural programmes and events, increasing community engagement.',
+          'Set up of an audiovisual department from the ground up (space design, furniture, acquisition planning).',
+          'Management of acquisitions and systematic weeding for books, music and film collections.',
+          'Cataloguing of large multimedia collections using international standards, improving access for diverse audiences.',
+          'Design of bilingual cultural programmes and events, increasing community engagement and library usage.',
         ],
       },
       {
         period: '2001 – 2007',
-        title: 'Communications Specialist & Radio Producer',
-        org: 'RRB Radio & RFO',
-        location: 'Nouméa, New Caledonia',
+        title: 'Broadcast & Communications Production',
+        org: 'Radio & media organisations',
+        location: 'Broadcast & media sector',
         summary:
-          'Produced multilingual radio content and campaigns, blending journalistic rigour with creative storytelling.',
+          'Production of multilingual audio content and communication campaigns for radio and media outlets.',
         highlights: [
-          'Produced and hosted 30+ weekly live radio shows (~30 hours/week) across music and socio-cultural formats.',
-          'Interviewed national and international VIPs and socio-economic leaders.',
-          'Managed technical production and broadcasting of news and programme segments.',
-          'Created bilingual promotional campaigns (jingles, ads, voice-over), boosting audience reach.',
+          'Production and hosting of live radio programmes across musical and socio-cultural formats.',
+          'Interviews with national and international guests, socio-economic actors and public figures.',
+          'Technical production and delivery of news segments and programme content.',
+          'Creation of promotional campaigns (jingles, spots, voice-over) contributing to audience growth.',
         ],
       },
     ],
     educationTitle: 'Education & qualifications',
     educationItems: [
-      'Master’s in Communication & Public Relations (2015) – Strategic Communication, Crisis Management, Branding, Protocol.',
-      "Bachelor’s in Applied Foreign Languages (English, Spanish).",
-      'Competitive Examination for Library Professions – with honours.',
-      'Certified professional coach; PADI Dive Master.',
+      'Advanced studies in Communication & Public Relations – strategic communication, crisis management, branding, protocol.',
+      'University-level training in applied foreign languages and intercultural communication.',
+      'Formal qualifications in library and information services.',
+      'Additional certifications in professional coaching and related disciplines.',
     ],
-    culturalTitle: 'Cultural engagement & regional ambassadorship',
+    culturalTitle: 'Cultural engagement & sector insight',
     culturalItems: [
-      'Artist and singer-songwriter; Cultural Ambassador for the Pacific Region (2012–present).',
-      'Composer of “Oceania: A Hymn for the Pacific”, used across regional events and institutions.',
-      'Regular representative of New Caledonia at regional and international cultural events (NZ, Australia, Tahiti, Fiji, Vanuatu, etc.).',
+      'Long-standing engagement with arts, culture and heritage initiatives.',
+      'Experience creating and promoting cultural projects with regional and international visibility.',
+      'Deep familiarity with bridging cultural, linguistic and institutional contexts in day-to-day work.',
     ],
   },
 
   fr: {
-    heading: 'Chronologie professionnelle',
+    heading: "Chronologie de l’expérience de l’équipe",
     subheading:
-      'Un parcours de plus de 17 ans entre bibliothèques numériques, mémoire institutionnelle et communication stratégique dans le Pacifique.',
-    highlightTitle: 'Pourquoi travailler avec Stéphanie',
+      "Plus de vingt ans d’expérience cumulée entre bibliothèques numériques, mémoire institutionnelle et communication stratégique pour des organisations publiques, académiques et internationales.",
+    highlightTitle: "Pourquoi les organisations travaillent avec l’équipe Watt’s Online",
     highlightBullets: [
-      'Plus de 17 ans de gestion de l’information dans des organisations internationales complexes et multiculturelles du Pacifique.',
-      'Maîtrise de Koha, Navision, des métadonnées et de l’archivage numérique – des fonds historiques aux contenus nativement numériques.',
-      'Bilingue français–anglais, espagnol courant, excellente connaissance des contextes culturels du Pacifique.',
-      'Expérience avérée en transformation numérique, soutien aux instances de gouvernance et gestion des circuits de publication.',
+      "Plus de 20 ans d’expérience cumulée en gestion de l’information dans des environnements complexes et multiculturels.",
+      "Solide expertise en systèmes de bibliothèque, outils financiers, métadonnées et archivage numérique – des fonds historiques aux contenus nativement numériques.",
+      "Services multilingues (FR / EN / ES) et excellente compréhension des contextes institutionnels et régionaux.",
+      "Expérience avérée en transformation numérique, soutien à la gouvernance et gestion des circuits de publication pour les directions et conseils d’administration.",
     ],
     timelineTitle: 'Étapes clés',
     items: [
       {
-        period: '2008 – 2025',
-        title:
-          'Chargée principale de gestion de l’information, Bibliothèque & Publications',
-        org: 'Communauté du Pacifique (CPS/SPC)',
-        location: 'Nouméa, Nouvelle-Calédonie & Suva, Fidji',
+        period: '2008 – Aujourd’hui',
+        title: 'Pilotage de bibliothèques numériques & gestion de l’information',
+        org: 'Organisations internationales et régionales',
+        location: 'Multi-pays / à distance',
         summary:
-          'Pilotage de la transformation numérique des connaissances institutionnelles et des services de bibliothèque de la CPS.',
+          "Conception et pilotage de stratégies de gestion documentaire, de bibliothèques numériques et de flux de publication pour des organismes publics et internationaux.",
         highlights: [
-          'Direction des projets de numérisation des documents et archives institutionnelles.',
-          'Gestion de la bibliothèque numérique de la CPS et des dépôts divisionnaires avec des métadonnées de haute qualité.',
-          'Administration et optimisation de Koha, avec formation de bibliothèques partenaires dans la région.',
-          'Soutien aux publications officielles (CIP, ISBN, codes-barres) et aux réunions de gouvernance de haut niveau.',
-          'Gestion financière de la division via Navision (engagements, factures, paiements).',
+          "Mise en place de projets de numérisation et de préservation à long terme des documents et archives.",
+          "Gestion de dépôts numériques avec des standards de métadonnées rigoureux et un contrôle qualité continu.",
+          "Administration et optimisation de systèmes intégrés de bibliothèque (par ex. Koha) et d’outils de gestion des connaissances.",
+          "Soutien aux processus de publication officielle, aux documents de conseil et aux décisions de direction.",
+          "Utilisation d’outils financiers et de planification pour suivre budgets, engagements et paiements liés aux services d’information.",
         ],
       },
       {
         period: '2007 – 2008',
-        title: 'Bibliothécaire & Responsable audiovisuel',
-        org: 'Médiathèque de Dumbéa',
-        location: 'Nouméa, Nouvelle-Calédonie',
+        title: 'Médiathèque publique & services audiovisuels',
+        org: 'Médiathèque municipale',
+        location: 'Institution culturelle publique',
         summary:
-          'Création et pilotage du pôle audiovisuel d’une médiathèque publique, entre stratégie documentaire et action culturelle.',
+          "Développement et gestion de l’offre audiovisuelle d’une médiathèque, entre stratégie documentaire, service public et action culturelle.",
         highlights: [
-          'Mise en place du secteur audiovisuel (aménagement, mobilier, politique d’acquisition).',
-          'Gestion des acquisitions et du désherbage pour les livres, CD et DVD.',
-          'Catalogage UNIMARC de plus de 10 000 documents multimédias.',
-          'Conception de programmes culturels bilingues (FR/EN) augmentant fortement la fréquentation.',
+          "Création d’un pôle audiovisuel (aménagement des espaces, mobilier, politique d’acquisition).",
+          "Gestion des acquisitions et du désherbage pour les livres, CD et DVD.",
+          "Catalogage de fonds multimédias importants selon les standards internationaux.",
+          "Conception de programmes culturels bilingues augmentant la fréquentation et l’engagement du public.",
         ],
       },
       {
         period: '2001 – 2007',
-        title: 'Productrice & Animatrice radio / Chargée de communication',
-        org: 'RRB Radio & RFO',
-        location: 'Nouméa, Nouvelle-Calédonie',
+        title: 'Production radio & communication',
+        org: 'Organismes de radio et médias',
+        location: 'Secteur de la diffusion',
         summary:
-          'Production de contenus radio multilingues et de campagnes de communication pour les radios du Pacifique.',
+          "Production de contenus audio multilingues et de campagnes de communication pour des radios et médias.",
         highlights: [
-          'Production et animation de plus de 30 émissions hebdomadaires en direct (~30 heures/semaine).',
-          'Interviews d’invités nationaux et internationaux (décideurs, personnalités publiques).',
-          'Production technique et mise à l’antenne des journaux et programmes.',
-          'Création de campagnes promotionnelles bilingues (jingles, spots, voix-off).',
+          "Production et animation d’émissions en direct sur des thématiques musicales et socio-culturelles.",
+          "Interviews d’invités nationaux et internationaux issus de divers secteurs.",
+          "Production technique et mise à l’antenne de journaux et programmes.",
+          "Création de campagnes promotionnelles (jingles, spots, voix-off) contribuant à la croissance de l’audience.",
         ],
       },
     ],
     educationTitle: 'Formation & certifications',
     educationItems: [
-      'Master en Communication & Relations Publiques (2015) – Communication stratégique, gestion de crise, branding, protocole.',
-      'Licence en Langues Étrangères Appliquées (anglais, espagnol).',
-      'Concours des métiers des bibliothèques (admissible/admise avec mention).',
-      'Coach professionnelle certifiée ; Dive Master PADI.',
+      "Études avancées en communication et relations publiques – communication stratégique, gestion de crise, image de marque, protocole.",
+      "Formation universitaire en langues étrangères appliquées et communication interculturelle.",
+      "Qualifications formelles en bibliothéconomie et sciences de l’information.",
+      "Certifications complémentaires en coaching professionnel et disciplines associées.",
     ],
-    culturalTitle: 'Engagement culturel & rayonnement régional',
+    culturalTitle: 'Engagement culturel & compréhension sectorielle',
     culturalItems: [
-      'Artiste, autrice-compositrice-interprète et ambassadrice culturelle du Pacifique (2012–aujourd’hui).',
-      'Créatrice de « Oceania: A Hymn for the Pacific », utilisé dans de nombreux événements régionaux.',
-      'Représentante de la Nouvelle-Calédonie lors d’événements culturels régionaux et internationaux.',
+      "Engagement de longue date dans des projets liés aux arts, à la culture et au patrimoine.",
+      "Expérience dans la création et la promotion de projets culturels à visibilité régionale et internationale.",
+      "Capacité à naviguer au quotidien entre différents contextes culturels, linguistiques et institutionnels.",
     ],
   },
 };
@@ -202,10 +201,13 @@ function Chronology({ lang }: { lang: Language }) {
         {/* Section header */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
           <div className="space-y-4">
-            {/* Name + role */}
+            {/* Team badge */}
             <div className="inline-flex items-center px-3 py-1 rounded-full bg-white/70 border border-slate-200 shadow-sm text-xs font-medium text-slate-600">
               <LibraryBig size={16} className="mr-2 text-library-secondary" />
-              <span>Stéphanie Watt · Senior Information Management Officer</span>
+              <span>
+                The Watt&apos;s Online team · Digital information &amp; knowledge
+                management
+              </span>
             </div>
 
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-library-primary">
@@ -213,8 +215,8 @@ function Chronology({ lang }: { lang: Language }) {
             </h2>
 
             <p className="text-slate-700 text-sm font-semibold uppercase tracking-wide">
-              Digital libraries · Institutional memory · Strategic communication · Pacific
-              region
+              Digital libraries · Knowledge governance · Strategic communication ·
+              Public &amp; international institutions
             </p>
 
             <p className="text-slate-600 text-lg leading-relaxed">
@@ -222,12 +224,11 @@ function Chronology({ lang }: { lang: Language }) {
             </p>
 
             <p className="text-slate-500 text-sm">
-              FR / EN / ES · Based in the Pacific, collaborating with institutions
-              worldwide.
+              FR / EN / ES · Remote collaboration with institutions worldwide.
             </p>
           </div>
 
-          {/* “Why work with Stéphanie” card */}
+          {/* “Why work with the team” card */}
           <div className="md:col-span-2 bg-white rounded-2xl shadow-md border border-slate-100 p-6 md:p-8">
             <div className="flex items-center mb-4">
               <div className="w-10 h-10 rounded-full bg-library-secondary/15 flex items-center justify-center mr-3">
@@ -347,7 +348,8 @@ function Chronology({ lang }: { lang: Language }) {
                 <div className="flex items-center mt-4 text-xs uppercase tracking-wide text-slate-200">
                   <Globe size={14} className="mr-1.5" />
                   <span>
-                    Pacific-wide cultural & institutional visibility – available worldwide.
+                    Cultural awareness &amp; institutional context – applied to projects
+                    worldwide.
                   </span>
                 </div>
               </div>
