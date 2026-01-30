@@ -1,6 +1,6 @@
 import React from 'react';
 import { Translation } from '../types';
-import { Database, BookText, Library, CheckCircle, ArrowRight } from 'lucide-react';
+import { Database, BookText, Library, CheckCircle, ArrowRight, Brain } from 'lucide-react';
 
 interface ServicesProps {
   t: Translation['services'];
@@ -29,6 +29,13 @@ const Services: React.FC<ServicesProps> = ({ t, openBooking }) => {
       color: 'bg-amber-50 text-amber-700',
       borderColor: 'border-amber-100',
       hoverBorder: 'hover:border-amber-300'
+    },
+    {
+      data: t.categories.ai,
+      icon: <Brain size={32} />,
+      color: 'bg-purple-50 text-purple-700',
+      borderColor: 'border-purple-100',
+      hoverBorder: 'hover:border-purple-300'
     }
   ];
 
@@ -47,7 +54,7 @@ const Services: React.FC<ServicesProps> = ({ t, openBooking }) => {
         </div>
 
         {/* Service Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {categories.map((cat, index) => (
             <div
               key={index}

@@ -42,6 +42,7 @@ export type Translation = {
       digital: ServiceItem;
       knowledge: ServiceItem;
       publishing: ServiceItem;
+      ai: ServiceItem;
     };
     bookService: string;
   };
