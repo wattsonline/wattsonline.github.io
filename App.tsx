@@ -239,7 +239,7 @@ function Chronology({ lang }: { lang: Language }) {
               </h3>
             </div>
             <ul className="space-y-3 text-sm md:text-base text-slate-600">
-              {data.highlightBullets.map((item, idx) => (
+              {data.highlightBullets.map((item: string, idx: number) => (
                 <li key={idx} className="flex items-start">
                   <span className="mt-1 mr-2 h-1.5 w-1.5 rounded-full bg-library-secondary" />
                   <span>{item}</span>
@@ -261,7 +261,7 @@ function Chronology({ lang }: { lang: Language }) {
             </div>
 
             <div className="relative border-l border-slate-200 ml-3 pl-6 space-y-10">
-              {data.items.map((item, idx) => (
+              {data.items.map((item: ChronologyItem, idx: number) => (
                 <div key={idx} className="relative">
                   {/* Dot */}
                   <div className="absolute -left-3.5 top-1 w-3 h-3 rounded-full bg-library-secondary border-2 border-library-paper" />
@@ -291,7 +291,7 @@ function Chronology({ lang }: { lang: Language }) {
                     </p>
 
                     <ul className="space-y-2 text-sm text-slate-600">
-                      {item.highlights.map((h, i) => (
+                      {item.highlights.map((h: string, i: number) => (
                         <li key={i} className="flex items-start">
                           <span className="mt-1 mr-2 h-1 w-3 rounded bg-library-primary/50" />
                           <span>{h}</span>
@@ -317,7 +317,7 @@ function Chronology({ lang }: { lang: Language }) {
                 </h3>
               </div>
               <ul className="space-y-2 text-sm text-slate-600">
-                {data.educationItems.map((ed, i) => (
+                {data.educationItems.map((ed: string, i: number) => (
                   <li key={i} className="flex items-start">
                     <span className="mt-1 mr-2 h-1.5 w-1.5 rounded-full bg-library-secondary/70" />
                     <span>{ed}</span>
@@ -338,7 +338,7 @@ function Chronology({ lang }: { lang: Language }) {
                   </h3>
                 </div>
                 <ul className="space-y-2 text-sm text-slate-100/90">
-                  {data.culturalItems.map((c, i) => (
+                  {data.culturalItems.map((c: string, i: number) => (
                     <li key={i} className="flex items-start">
                       <span className="mt-1 mr-2 h-1.5 w-1.5 rounded-full bg-library-secondary/70" />
                       <span>{c}</span>
@@ -502,7 +502,7 @@ function App() {
                   {t.about.expertiseTitle}
                 </h3>
                 <ul className="space-y-6">
-                  {t.about.expertiseList.map((item, index) => (
+                  {t.about.expertiseList.map((item: string, index: number) => (
                     <li key={index} className="flex items-center group">
                       <span className="w-8 h-8 rounded-full bg-library-secondary/20 flex items-center justify-center mr-4 group-hover:bg-library-secondary transition-colors">
                         <BookOpenCheck size={16} />

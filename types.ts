@@ -1,21 +1,16 @@
+// types.ts
+
 export type Language = 'en' | 'fr';
 
-export interface ServiceItem {
-  title: string;
-  items: string[];
-}
-
-export interface ContentSection {
-  title: string;
-  subtitle?: string;
-  description?: string;
-}
-
+/**
+ * One language's text bundle.
+ * This is what components typically receive as `t`.
+ */
 export type Translation = {
   nav: {
     home: string;
     about: string;
-    chronology: string;  // <-- add this
+    chronology: string;
     services: string;
     contact: string;
     toggleLang: string;
@@ -38,12 +33,13 @@ export type Translation = {
   services: {
     title: string;
     intro: string;
-    categories: {
-      digital: ServiceItem;
-      knowledge: ServiceItem;
-      publishing: ServiceItem;
-      ai: ServiceItem;
-    };
+    categories: Record<
+      string,
+      {
+        title: string;
+        items: string[];
+      }
+    >;
     bookService: string;
   };
   booking: {
@@ -74,9 +70,9 @@ export type Translation = {
     privacy: string;
     terms: string;
   };
-}
+};
 
-export interface Content {
-  en: Translation;
-  fr: Translation;
-}
+/**
+ * Full content object keyed by language.
+ */
+export type Content = Record<Language, Translation>;
